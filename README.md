@@ -71,3 +71,6 @@ Note: The cached 'session id' and 'Account Name' information obtained in pass th
 ![](https://github.com/mustgundogdu/PeterParser/blob/main/ScreenShots/PttDetection.PNG)
 
 
+### References
+> https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4624
+> https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4769
