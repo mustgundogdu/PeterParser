@@ -13,6 +13,7 @@ Essentially, it sequentially exports the most commonly used event ID logs to CSV
 Its primary use is to help system administrators parse event logs into CSV format using PowerShell, as well as to facilitate the detection of specific and well-known AD attacks.
 
 ## Requirements
+### ! Note: A properly configured SMB share named 'dcLog' should be created by default with NTFS permissions set correctly (restricted to authorized users only). If specifying a local file path instead of creating an SMB share is preferred, the '$Folder' variable in the 'shareChecking.ps1' file can be set to the file path.
 
 
 ## Event IDs
