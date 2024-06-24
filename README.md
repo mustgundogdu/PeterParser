@@ -65,7 +65,7 @@ The event ID 4624 plays a critical role in detecting pass the hash attacks and s
 Pass the ticket attack aims to gain authorized access to a target system using a valid Kerberos service ticket. In this type of attack, the attacker typically authenticates to the target system using a previously obtained valid Kerberos ticket-granting ticket (TGT) or service ticket (TGS) from a previous session.
 
 In the detection of Pass The Ticket attacks, it is identified by comparing the 'session id' and 'Account Name' information found in cached Kerberos TGT tickets with those from the current session.
-Note: The cached 'session id' and 'Account Name' information obtained in pass the ticket detection is provided with local administrator privileges on the local machine.
+#### Note: The cached 'session id' and 'Account Name' information obtained in pass the ticket detection is provided with local administrator privileges on the local machine.
 
 ### Detection Example
 
