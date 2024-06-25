@@ -10,6 +10,8 @@ The Peterparser tool is designed to parse event IDs and provide file output in C
 ## Working Principle
 Essentially, it sequentially exports the most commonly used event ID logs to CSV format for specific attacks. While doing this, it allows you to back up the files it generates by taking their unique hashes and compare the files generated within a certain period with the SHA hash information in the backup.
 
+![](https://github.com/mustgundogdu/PeterParser/blob/main/ScreenShots/peterparserExecute.PNG)
+
 ## Application area
 Its primary use is to help system administrators parse event logs into CSV format using PowerShell, as well as to facilitate the detection of specific and well-known AD attacks.
 
